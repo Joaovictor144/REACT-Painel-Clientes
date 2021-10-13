@@ -1,0 +1,51 @@
+.atrasado {
+  color: red !important;
+}
+
+.pago {
+  color: #15ff00 !important;
+}
+
+.opcoes button {
+  padding: 0px 2px;
+  margin: 0px 5px;
+  border: none;
+}
+
+#clientesPag select {
+  color: #F32651;
+  background-color: #ffffff;
+  border: 1px solid #F32651;
+  padding: 2px 5px;
+  border-radius: 15px;
+  width: 50%;
+  outline-color: #F32651;
+}
+
+.totalResultados {
+  color: #F32651;
+}
+
+.paginacao {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: right;
+  color: #F32651 !important;
+}
+
+.paginacao span {
+  color: #F32651 !important;
+}
+
+.paginacao a {
+  color: #F32651 !important;
+}
+
+.valorTotal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: right;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,97 @@
+$primarycolor:#F32651;
+$secundaryColor:#A8A9AD;
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+.card-main{
+    background-color: #ffffff;
+    
+}
+.title-table{
+    span{
+        font-size: 1.8rem;
+        font-weight: 800;
+        color: #555555;
+    }
+}
+
+#search{
+    border-color: $primarycolor;
+    outline-color:$primarycolor;
+    border-radius: 15px;
+    border-width: 2.6px;
+    text-align: center;
+    color:$primarycolor;
+    width:100%;
+}
+
+#search::placeholder{
+    color:$primarycolor;
+    padding-left: 10px;
+    font-weight: 600;
+    font-family: Arial,FontAwesome;
+}
+#inicioData{
+    border-color: $primarycolor;
+    outline-color:$primarycolor;
+    border-radius: 15px;
+    border-width: 2.6px;
+    text-align: left;
+    padding:0px 10px;
+    color:$primarycolor;
+    width:100%;
+    ::placeholder{
+        color:$primarycolor;
+        padding-left: 10px;
+    }
+}
+#fimData{
+    border-color: $primarycolor;
+    outline-color:$primarycolor;
+    border-radius: 15px;
+    border-width: 2.6px;
+    text-align: left;
+    padding:0px 10px;
+    color:$primarycolor;
+    width:100%;
+    ::placeholder{
+        color:$primarycolor;
+        padding-left: 10px;
+    }
+}
+
+.espace-date{
+    select{
+        background-color: $primarycolor;
+        color: #ffffff;
+        width:100%;
+        padding: 5px 2px;
+        height:28px;
+        border-radius: 15px;
+        border: none;
+        outline-color:$primarycolor;
+        text-align: center;
+    }
+    select:hover{
+        background-color: $primarycolor;
+        color: #ffffff;
+    }
+    
+}
+.Data{
+    position:relative;
+    span{
+        position:absolute;
+        right: 10px;
+        top: 3px;
+        color:$primarycolor;
+    }
+}
+
+.text-table{
+    border-bottom: 5px solid $primarycolor;
+    // border: ;
+    span{
+        color:$primarycolor;
+        font-weight: 800;
+        
+    }
+}

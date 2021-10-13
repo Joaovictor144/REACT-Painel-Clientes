@@ -1,0 +1,45 @@
+$primarycolor:#F32651;
+.cardUser{
+    background-color: #ffff;
+    width:100%;
+}
+
+.iconProfile{
+    margin:0 auto;
+    color:$primarycolor;
+    text-align: center;
+   
+}
+
+.user{
+    color:$primarycolor;
+}
+
+.meu-perfil{
+    a{
+        color: $primarycolor!important;
+        text-transform: uppercase;
+        text-decoration: none;
+       
+    }
+    border-bottom: 1px solid #bfbfbf;
+}
+.meu-perfil-senha{
+    a{
+        color:#bfbfbf;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    border-bottom: 1px solid #bfbfbf;
+}
+.meu-perfil-sair{
+    display: flex;
+    text-align: right;
+    a{
+        color:$primarycolor;
+        text-decoration: none;
+        
+        text-align: right;
+        
+    }
+}

@@ -1,0 +1,48 @@
+.cardUser {
+  background-color: #ffff;
+  width: 100%;
+}
+
+.iconProfile {
+  margin: 0 auto;
+  color: #F32651;
+  text-align: center;
+}
+
+.user {
+  color: #F32651;
+}
+
+.meu-perfil {
+  border-bottom: 1px solid #bfbfbf;
+}
+
+.meu-perfil a {
+  color: #F32651 !important;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.meu-perfil-senha {
+  border-bottom: 1px solid #bfbfbf;
+}
+
+.meu-perfil-senha a {
+  color: #bfbfbf;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.meu-perfil-sair {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: right;
+}
+
+.meu-perfil-sair a {
+  color: #F32651;
+  text-decoration: none;
+  text-align: right;
+}
+/*# sourceMappingURL=styles.css.map */

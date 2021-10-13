@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+$primarycolor:#F32651;
+$secundaryColor:#A8A9AD;
+.card-header{
+    padding-top: 0;
+    background-color:#ffffff;
+    height:80%;
+    
+}
+.title-header{
+    float:left;
+    p{
+        color:$primarycolor;
+        font-size: 5rem;
+        font-family: 'Passion One', cursive;
+        padding-left: 10px;
+        vertical-align:middle;
+        
+    }
+    strong{
+        color:$secundaryColor;
+        font-size: 3.5rem;
+        font-family: 'Ubuntu', sans-serif;
+
+    }
+}
+
+.comp1-header{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color:$primarycolor;
+    float:left;
+    line-height: 120px;
+    border-top: 8px solid #F32651;
+    width:22%;
+   
+}
+.img-user{
+    color:$primarycolor;
+    line-height: 60px;
+    margin: 0;
+    padding: 0;
+    padding-right:10px ;
+    width: 60px;
+    float:right; 
+    padding-top: 8px;  
+}
+.info-user{
+    color:#A8A9AD;
+    line-height: 30px;
+    float:right; 
+    display: flex; 
+    padding-top: 8px;   
+}

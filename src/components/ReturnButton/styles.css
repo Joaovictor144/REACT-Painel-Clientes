@@ -1,0 +1,11 @@
+.button-return button {
+  text-transform: uppercase;
+  border: none;
+  outline-color: #F32651;
+  background-color: #ffffff;
+}
+
+.button-return button:hover {
+  color: #F32651;
+}
+/*# sourceMappingURL=styles.css.map */

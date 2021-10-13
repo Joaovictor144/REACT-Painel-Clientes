@@ -1,0 +1,45 @@
+$primarycolor:#F32651;
+.atrasado{
+    color:rgb(255, 0, 0)!important;
+}
+.pago{
+    color:rgb(21, 255, 0)!important;
+}
+.opcoes{
+    button{
+        padding:0px 2px;
+        margin:0px 5px;
+        border:none;
+    }
+}
+#clientesPag{
+    select{
+        color:$primarycolor;
+        background-color:#ffffff;
+        border:1px solid $primarycolor;
+        padding: 2px 5px;
+        border-radius: 15px;
+        width:50%;
+        outline-color: $primarycolor;
+    }
+}
+.totalResultados{
+    color:$primarycolor;
+}
+.paginacao{
+    span{
+        color:$primarycolor!important;
+    }
+    a{
+        color:$primarycolor!important;
+    }
+
+    display:flex;
+    float:right;
+    color:$primarycolor!important;
+}
+
+.valorTotal{
+    display: flex;
+    float:right;
+}

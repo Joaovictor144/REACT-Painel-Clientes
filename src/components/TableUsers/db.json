@@ -1,0 +1,27 @@
+{
+    "clients":[
+        {
+            "id":1,
+            "name": "Pedro Algusto",
+            "valor":"1.500,00",
+            "situacao":"Atrasado",
+            "vencimento":"15/12/2020"
+        },
+        {
+            "id":2,
+            "name": "Pedro Algusto",
+            "valor":"1.500,00",
+            "situacao":"Pago",
+            "vencimento":"15/12/2020"
+        },
+        {
+            "id":3,
+            "name": "Pedro Algusto",
+            "valor":"1.500,00",
+            "situacao":"A vencer",
+            "vencimento":"15/12/2020"
+        }
+
+        
+    ]
+}
